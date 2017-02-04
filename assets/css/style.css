@@ -1,0 +1,196 @@
+
+body {
+  background-image: url("../images/paisley.png");
+}
+
+.navbar{
+  background-color: white;
+  height:75px;
+  width:100%;
+}
+
+.navbar ul{
+  margin-right:20%;
+  font-family:Arial;
+  font-size:100%;
+}
+.border{
+  border-right: 2px solid grey;
+  padding-right:7.5px;
+  color:#777777;
+}
+
+.navbar ul li a{
+  color:#777777;
+  font-size:15px;
+}
+.navbar ul li a:hover{
+  color:#4aaaa5;
+  font-size: 125%;
+}
+ul li a{
+  text-decoration:none;
+
+}
+
+.logo
+{
+  height:80px;
+  background-color:#4aaaa5;
+  float:left;
+  width:auto;
+  margin-left:50px;
+  text-align:center;
+}
+
+.logo h1{
+  color:white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 25px;
+  margin-top:30px;
+}
+
+footer{
+  height:40px;
+  background-color: #666666;
+  clear:both;
+  border-top:5px solid #4aaaa5;
+  text-align: center;
+  color:white;
+  position:absolute;
+  bottom:-80px;
+  width:100%;
+}
+
+footer h3{
+  margin-top:5px;
+}
+
+h1{
+  color:#4aaaa5;
+}
+
+.row{
+  width:100%;
+
+
+}
+.main{
+  height:500px;
+  width:650px;;
+  background-color: #ffffff;
+  /*margin-left:0;*/
+  margin-top: 75px;
+  font-size:30px;
+  padding-left: 25px;
+  float:left;
+  border: 2px solid #dddddd;
+  margin-bottom: 25px;
+  positon:relative;
+}
+
+.main h1{
+  padding: 10px 0px 5px 0px;
+  font-weight: bold;
+}
+.main img{
+  height: 150px;
+  width:150px;
+  float:left;
+  padding: 5px;
+
+}
+
+
+
+.social{
+background-color: #ffffff;
+width:270px;
+height:175px;
+float:left;
+margin-left: 50px;
+margin-top: 75px;
+margin-bottom:75px;
+font-size:25px;
+color:#4aaaa5;
+text-align:center;
+border: 2px solid #dddddd;
+}
+
+.social h2{
+  padding: 10px 0px 5px 0;
+}
+
+
+.social img{
+  width:65px;
+  height:65px;
+}
+
+hr{
+  width:90%;
+}
+
+.social ul li a:hover {
+  opacity:.5;
+}
+
+.portfolio{
+  height:auto;
+  width:650px;
+  background-color: #ffffff;
+  /*margin-left:0;*/
+  margin-top: 75px;
+  font-size:30px;
+  float:left;
+  border: 2px solid #dddddd;
+  margin-bottom: 50px;
+  position:relative;
+}
+.portfolio h1{
+  padding: 10px 0px 5px 10px;
+  font-weight: bold;
+}
+
+.folio-item{
+  width:35%;
+  height:150px;
+  background-color: grey;
+  margin:5px 7.5% 5px 7.5%;
+  float:left;
+  display:inline;
+}
+
+.banner{
+  width:100%;
+  height:35px;
+  background-color:#4aaaa5;
+  margin-top:105px;
+  z-index:2;
+  text-align: center;
+  color:white;
+  font-size:20px;
+}
+.entry input{
+  width:90%;
+  margin:5px;
+  height:20px;
+}
+
+.entry{
+  font-family:Arial;
+  margin:5px;
+}
+
+.entry textarea{
+  height:150px;
+  width:90%;
+  margin: 5px;
+}
+
+.entry label{
+  margin:5px;
+}
+
+p {font-family:Arial,Helvetica, sans-serif;
+}
