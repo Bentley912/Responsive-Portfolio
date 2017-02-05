@@ -146,6 +146,7 @@ hr{
   border: 2px solid #dddddd;
   margin-bottom: 50px;
   position:relative;
+  margin-left:-5.5em;
 }
 .portfolio h1{
   padding: 10px 0px 5px 10px;
@@ -254,6 +255,16 @@ p {font-family:Arial,Helvetica, sans-serif;
       bottom:-45em;
       width:100%;
     }
+
+  .portfolio{
+    width:90%;
+    margin-left:2em;
+    margin-bottom: -1em;
+  }
+  .folio-item{
+    width:35%;
+    float:left;
+  }
 }
 @media screen and (max-width:640px){
   .logo{
@@ -263,6 +274,20 @@ p {font-family:Arial,Helvetica, sans-serif;
 
   .navbar ul {
     clear:both;
+    width:100%;
+    background-color: white;
+  }
+
+  .portfolio {
+    width:90%;
+  }
+
+  .folio-item{
+    width:80%;
+  }
+
+  footer{
+    bottom:-57em;
     width:100%;
   }
 
